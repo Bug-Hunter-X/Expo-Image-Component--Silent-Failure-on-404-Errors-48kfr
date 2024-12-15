@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Image` component with a remote image URL that returns a 404 error.  The `Image` component doesn't always handle this gracefully, sometimes failing silently or displaying a broken image icon instead of a clear error message. This makes debugging difficult, as you might not immediately realize the image isn't loading because of a network issue.
